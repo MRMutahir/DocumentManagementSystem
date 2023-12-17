@@ -14,10 +14,6 @@ const UserSshema = new mongoose.Schema(
     password: {
       type: String,
     },
-    fromGoogle: {
-      type: Boolean,
-      default: false,
-    },
   },
   { timestamps: true }
 );
